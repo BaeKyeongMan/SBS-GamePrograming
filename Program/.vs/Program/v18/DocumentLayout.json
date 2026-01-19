@@ -3,11 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F8714A4-D0FE-4922-9C87-7707A5E6AAAE}|Program.vcxproj|C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Program\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3F8714A4-D0FE-4922-9C87-7707A5E6AAAE}|Program.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{51138A24-D4C3-49A2-AAFA-528147C80BDA}|..\\Class 3th (File Input \u0026 Output)\\Class 3th (File Input \u0026 Output).vcxproj|C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Class 3th (File Input \u0026 Output)\\source3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1E313BC-6E73-47FF-9504-926243EE7C66}|..\\Class2th (Time)\\Class2th (Time).vcxproj|C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Class2th (Time)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D92155F2-3E66-4406-8A9F-570CD5D951CE}|..\\Class 4th (Color System)\\Class 4th (Color System).vcxproj|C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Class 4th (Color System)\\source4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 179,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,27 +40,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Class2th (Time)\\source.c",
-              "RelativeDocumentMoniker": "..\\Class2th (Time)\\source.c",
-              "ToolTip": "C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Class2th (Time)\\source.c",
-              "RelativeToolTip": "..\\Class2th (Time)\\source.c",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "source3.c",
+              "DocumentMoniker": "C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Class 3th (File Input \u0026 Output)\\source3.c",
+              "RelativeDocumentMoniker": "..\\Class 3th (File Input \u0026 Output)\\source3.c",
+              "ToolTip": "C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Class 3th (File Input \u0026 Output)\\source3.c",
+              "RelativeToolTip": "..\\Class 3th (File Input \u0026 Output)\\source3.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-01-16T04:53:11.019Z"
+              "WhenOpened": "2026-01-19T12:17:34.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Program\\source.c",
-              "RelativeDocumentMoniker": "source.c",
-              "ToolTip": "C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Program\\source.c",
-              "RelativeToolTip": "source.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "source4.c",
+              "DocumentMoniker": "C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Class 4th (Color System)\\source4.c",
+              "RelativeDocumentMoniker": "..\\Class 4th (Color System)\\source4.c",
+              "ToolTip": "C:\\Users\\rudak\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uACBD\uB9CC\\\uCF54\uB529\\SBS-GamePrograming\\Class 4th (Color System)\\source4.c",
+              "RelativeToolTip": "..\\Class 4th (Color System)\\source4.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-01-16T04:53:11.161Z",
+              "WhenOpened": "2026-01-19T12:16:59.228Z",
               "EditorCaption": ""
             }
           ]
