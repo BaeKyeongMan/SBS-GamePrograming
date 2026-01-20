@@ -1,24 +1,36 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <Windows.h>
+#include <stdlib.h>
 
-enum State{
-	IDLE = 1,
-	ATTACK,
-	DIE
-
-	// 열거형은 값을 따로 설정할 수 있으며, 따로 설정된 다음의 값은 그 전의 값엣 
-	// 하나 증가된 값으로 설정됩니다. 
-};
-
-void Select(enum State state);
+void ImageLoad(const char* fileName);
 
 int main()
 {
-#pragma region 열거형
-	// 관련된 상수의 값을 이름으로 정의한 집합의 자료형입니다.
-	/*enum State state = 0;
-	Select(state);*/
+#pragma region 파일 입출력
+
+#pragma region 파일 쓰기
+
+	// 첫 번째 매개 변수 (파일의 이름)
+	// 두 번째 매개 변수 (파일의 입출력 모드)
+
+	// FILE * file = fopen("data.txt","w");
+	// 
+	// fputs("Character Information\n", file);
+	// 
+	// fputs("Health : \n", file);
+	// fputs("Attack : \n", file);
+	// fputs("Defense : \n", file);
+	// 
+	// fclose(file);
+
+#pragma endregion
+
+#pragma region 파일 읽기
+
+	ImageLoad("Resources/Unit.txt");
+	ImageLoad("Resources/Object.txt");
+
+#pragma endregion
+
 
 #pragma endregion
 
@@ -26,25 +38,34 @@ int main()
 	return 0;
 }
 
-void Select(enum State state)
+void ImageLoad(const char* fileName)
 {
+	FILE* file = fopen(fileName, "r");
 
-	printf("현재 상태를 입력하세요. (1: 대기, 2: 공격, 3: 사망)");
-	scanf("%d", &state);
+	int count = 0;
 
-	switch (state)
+	int character = '\0';
+
+	while ((character = fgetc(file)) != EOF)
 	{
-	case IDLE:
-		printf("현재 대기 상태입니다.\n");
-		break;
-	case ATTACK:
-		printf("현재 공격 상태입니다.\n");
-		break;
-	case DIE:
-		printf("현재 사망 상태입니다.\n");
-		break;
-	default:
-		printf("잘못된 입력입니다.\n");
-		break;
+		count++;
 	}
+
+	rewind(file);
+
+	char* buffer = malloc(count + 1);
+
+	buffer[count] = '\0';
+
+
+	// 첫 번째 매개변수 : 읽은 데이터를 저장할 메모리 버퍼의 포인터 변수
+	// 두 번째 매개변수 : 각 데이터 항목의 크기 
+	// 세 번째 매개변수 : 데이터를 읽어올 항목의 수
+	// 네 번째 매개변수 : 데이터를 읽어올 파일의 포인터 변수
+
+	fread(buffer, sizeof(char), count, file);
+
+	printf("%s", buffer);
+
+	fclose(file);
 }
